@@ -223,3 +223,138 @@ OETrace :
 
 26/03/2020 16:25:01 | 
 ------------------
+27-03-20 16:41:44 | 
+27-03-20 16:41:44 | 
+Message : Script timed out
+27-03-20 16:41:44 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+27-03-20 16:41:44 | 
+Params : 
+27-03-20 16:41:44 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+27-03-20 16:41:44 | 
+Stamp : 27-03-20 16:41:43
+27-03-20 16:41:44 | 
+OSFullName : Microsoft Windows 10 Famille
+27-03-20 16:41:44 | 
+AvailablePhysicalMemory : 1,03 Go 
+27-03-20 16:41:44 | 
+TotalPhysicalMemory : 7,69 Go 
+27-03-20 16:41:44 | 
+AvailableVirtualMemory : 3,05 Go 
+27-03-20 16:41:44 | 
+TotalVirtualMemory : 4 Go 
+27-03-20 16:41:44 | 
+WorkingSet : 341,22 Mo 
+27-03-20 16:41:44 | 
+PagedMemorySize : 314,2 Mo 
+27-03-20 16:41:44 | 
+TotalMemory : 32,58 Mo 
+27-03-20 16:41:44 | 
+
+27-03-20 16:41:44 | 
+ExTrace : 
+27-03-20 16:41:44 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 546
+27-03-20 16:41:44 | 
+
+27-03-20 16:41:44 | 
+OETrace : 
+27-03-20 16:41:44 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 549
+27-03-20 16:41:44 | 
+à openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+27-03-20 16:41:44 | 
+
+27-03-20 16:41:44 | 
+------------------
+27-03-20 16:42:40 | 
+27-03-20 16:42:40 | 
+Message : Script timed out
+27-03-20 16:42:40 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+27-03-20 16:42:40 | 
+Params : 
+27-03-20 16:42:40 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+27-03-20 16:42:40 | 
+Stamp : 27-03-20 16:42:40
+27-03-20 16:42:40 | 
+OSFullName : Microsoft Windows 10 Famille
+27-03-20 16:42:40 | 
+AvailablePhysicalMemory : 1,01 Go 
+27-03-20 16:42:40 | 
+TotalPhysicalMemory : 7,69 Go 
+27-03-20 16:42:40 | 
+AvailableVirtualMemory : 3,05 Go 
+27-03-20 16:42:40 | 
+TotalVirtualMemory : 4 Go 
+27-03-20 16:42:40 | 
+WorkingSet : 347,02 Mo 
+27-03-20 16:42:40 | 
+PagedMemorySize : 319,54 Mo 
+27-03-20 16:42:40 | 
+TotalMemory : 35,31 Mo 
+27-03-20 16:42:40 | 
+
+27-03-20 16:42:40 | 
+ExTrace : 
+27-03-20 16:42:40 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 546
+27-03-20 16:42:40 | 
+
+27-03-20 16:42:40 | 
+OETrace : 
+27-03-20 16:42:40 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 549
+27-03-20 16:42:40 | 
+à openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+27-03-20 16:42:40 | 
+
+27-03-20 16:42:40 | 
+------------------
+27-03-20 16:45:41 | 
+27-03-20 16:45:41 | 
+Message : Script timed out
+27-03-20 16:45:41 | 
+LastTrace : openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args)
+27-03-20 16:45:41 | 
+Params : 
+27-03-20 16:45:41 | 
+MethodeName : gcroot<System::Object ^>* CefSharp.ScriptCore.Evaluate(CefSharp.ScriptCore*, gcroot<System::Object ^>*, CefRefPtr<CefBrowser>*, CefStringBase<CefStringTraitsUTF16>*, Double)
+27-03-20 16:45:41 | 
+Stamp : 27-03-20 16:45:41
+27-03-20 16:45:41 | 
+OSFullName : Microsoft Windows 10 Famille
+27-03-20 16:45:41 | 
+AvailablePhysicalMemory : 919,58 Mo 
+27-03-20 16:45:41 | 
+TotalPhysicalMemory : 7,69 Go 
+27-03-20 16:45:41 | 
+AvailableVirtualMemory : 3,02 Go 
+27-03-20 16:45:41 | 
+TotalVirtualMemory : 4 Go 
+27-03-20 16:45:41 | 
+WorkingSet : 372,88 Mo 
+27-03-20 16:45:41 | 
+PagedMemorySize : 346,16 Mo 
+27-03-20 16:45:41 | 
+TotalMemory : 38,61 Mo 
+27-03-20 16:45:41 | 
+
+27-03-20 16:45:41 | 
+ExTrace : 
+27-03-20 16:45:41 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 546
+27-03-20 16:45:41 | 
+
+27-03-20 16:45:41 | 
+OETrace : 
+27-03-20 16:45:41 | 
+à openElement.CtlBrowser._InvokeScriptWaitResult(Object[] args) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlBrowser.vb:ligne 549
+27-03-20 16:45:41 | 
+à openElement.CtlBrowser._Lambda$__R98-2(Object a0)
+27-03-20 16:45:41 | 
+
+27-03-20 16:45:41 | 
+------------------
