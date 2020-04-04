@@ -1,6 +1,6 @@
 Ouverture de la connexion, veuillez patienter ...
 Data delete : C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Backup\.htaccess
-220 ProFTPD Server (000webhost.com) [::ffff:145.14.145.229]
+220 ProFTPD Server (000webhost.com) [::ffff:145.14.144.13]
 USER ********
 331 User confichan OK. Password required
 PASS ********
@@ -17,257 +17,111 @@ PWD
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (145,14,145,229,205,181).
+227 Entering Passive Mode (145,14,144,13,159,137).
 STOR .htaccess
-150 Connecting to port 30045
+150 Connecting to port 43284
 226-File successfully transferred
-226 0.584 seconds (measured here), 0.74 Kbytes per second
+226 0.246 seconds (measured here), 1.75 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (145,14,145,229,135,157).
-STOR 16.css
-150 Connecting to port 45336
+227 Entering Passive Mode (145,14,144,13,119,30).
+STOR 29.css
+150 Connecting to port 48918
 226-File successfully transferred
-226 0.371 seconds (measured here), 2.00 Kbytes per second
+226 0.229 seconds (measured here), 2.82 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (145,14,145,229,178,79).
-STOR 16.htm
-150 Connecting to port 46546
+227 Entering Passive Mode (145,14,144,13,157,162).
+STOR 29.htm
+150 Connecting to port 30552
 226-File successfully transferred
-226 0.697 seconds (measured here), 8.14 Kbytes per second
+226 0.464 seconds (measured here), 10.72 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (145,14,145,229,190,246).
-STOR 17.css
-150 Connecting to port 41111
-226-File successfully transferred
-226 0.521 seconds (measured here), 1.14 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,167,163).
-STOR 17.htm
-150 Connecting to port 35312
-226-File successfully transferred
-226 0.722 seconds (measured here), 6.28 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,129,236).
-STOR 18.css
-150 Connecting to port 45278
-226-File successfully transferred
-226 0.377 seconds (measured here), 2.17 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,120,241).
-STOR 18.htm
-150 Connecting to port 36825
-226-File successfully transferred
-226 0.861 seconds (measured here), 7.41 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,147,10).
-STOR 19.css
-150 Connecting to port 49305
-226-File successfully transferred
-226 0.493 seconds (measured here), 1.96 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,201,188).
-STOR 19.htm
-150 Connecting to port 46467
-226-File successfully transferred
-226 0.743 seconds (measured here), 9.93 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,209,224).
-STOR 20.css
-150 Connecting to port 48812
-226-File successfully transferred
-226 0.379 seconds (measured here), 2.15 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,123,98).
-STOR 20.htm
-150 Connecting to port 35523
-226-File successfully transferred
-226 0.747 seconds (measured here), 8.36 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,188,98).
-STOR 21.css
-150 Connecting to port 30455
-226-File successfully transferred
-226 0.518 seconds (measured here), 1.29 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,136,77).
-STOR 21.htm
-150 Connecting to port 42548
-226-File successfully transferred
-226 0.604 seconds (measured here), 8.45 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,143,185).
-STOR 22.css
-150 Connecting to port 31199
-226-File successfully transferred
-226 1.201 seconds (measured here), 0.62 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,178,126).
-STOR 22.htm
-150 Connecting to port 47791
-226-File successfully transferred
-226 0.640 seconds (measured here), 8.87 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,186,221).
-STOR 23.css
-150 Connecting to port 49201
-226-File successfully transferred
-226 0.420 seconds (measured here), 1.77 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,154,113).
-STOR 23.htm
-150 Connecting to port 43355
-226-File successfully transferred
-226 0.582 seconds (measured here), 9.74 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,136,86).
-STOR 24.css
-150 Connecting to port 52554
-226-File successfully transferred
-226 0.375 seconds (measured here), 1.98 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,151,10).
-STOR 24.htm
-150 Connecting to port 30185
-226-File successfully transferred
-226 0.601 seconds (measured here), 9.43 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,138,169).
-STOR agenda.css
-150 Connecting to port 53788
-226-File successfully transferred
-226 0.378 seconds (measured here), 1.58 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,172,35).
-STOR agenda.htm
-150 Connecting to port 51582
-226-File successfully transferred
-226 0.522 seconds (measured here), 8.45 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,130,127).
-STOR chat.css
-150 Connecting to port 38758
-226-File successfully transferred
-226 0.379 seconds (measured here), 1.51 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,129,40).
-STOR chat.htm
-150 Connecting to port 45028
-226-File successfully transferred
-226 0.482 seconds (measured here), 4.14 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,142,143).
+227 Entering Passive Mode (145,14,144,13,153,32).
 STOR index.css
-150 Connecting to port 41049
+150 Connecting to port 41170
 226-File successfully transferred
-226 0.442 seconds (measured here), 1.51 Kbytes per second
+226 2.333 seconds (measured here), 294.07 bytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (145,14,145,229,136,45).
+227 Entering Passive Mode (145,14,144,13,184,82).
 STOR index.htm
-150 Connecting to port 54709
+150 Connecting to port 49775
 226-File successfully transferred
-226 0.580 seconds (measured here), 9.01 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,137,160).
-STOR PHOTO.css
-150 Connecting to port 35224
-226-File successfully transferred
-226 0.440 seconds (measured here), 1.35 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,139,96).
-STOR PHOTO.htm
-150 Connecting to port 36448
-226-File successfully transferred
-226 0.537 seconds (measured here), 10.04 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,191,100).
-STOR REPLAY.css
-150 Connecting to port 53458
-226-File successfully transferred
-226 0.494 seconds (measured here), 2.54 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,213,130).
-STOR REPLAY.htm
-150 Connecting to port 40573
-226-File successfully transferred
-226 0.677 seconds (measured here), 11.27 Kbytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,130,85).
-STOR robots.txt
-150 Connecting to port 30789
-226-File successfully transferred
-226 0.378 seconds (measured here), 142.96 bytes per second
-TYPE I
-200 TYPE is now 8-bit binary
-PASV
-227 Entering Passive Mode (145,14,145,229,195,71).
-STOR sitemap.xml
-150 Connecting to port 45352
-226-File successfully transferred
-226 0.555 seconds (measured here), 4.76 Kbytes per second
+226 2.090 seconds (measured here), 2.80 Kbytes per second
 PWD
 257 "/public_html" is your current location
 MKD Backup
 550 Can't create directory: File exists
 CWD Backup
 250 OK. Current directory is /public_html/Backup
+CWD /public_html
+250 OK. Current directory is /public_html
+MKD Files
+550 Can't create directory: File exists
+CWD Files
+250 OK. Current directory is /public_html/Files
+PWD
+257 "/public_html/Files" is your current location
+MKD Image
+550 Can't create directory: File exists
+CWD Image
+250 OK. Current directory is /public_html/Files/Image
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,153,106).
+STOR app_pht_luc.png
+150 Connecting to port 45065
+226-File successfully transferred
+226 10.580 seconds (measured here), 16.26 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,127,144).
+STOR billoumais.png
+150 Connecting to port 52876
+226-File successfully transferred
+226 12.568 seconds (measured here), 29.60 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,183,112).
+STOR chatluc.png
+150 Connecting to port 48173
+226-File successfully transferred
+226 3.049 seconds (measured here), 12.48 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,179,67).
+STOR fenetre_luc.png
+150 Connecting to port 49070
+226-File successfully transferred
+226 12.152 seconds (measured here), 25.92 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,130,40).
+STOR LOGOCONFI.png
+150 Connecting to port 32976
+226-File successfully transferred
+226 1.435 seconds (measured here), 32.03 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,135,154).
+STOR replay.png
+150 Connecting to port 37549
+226-File successfully transferred
+226 5.853 seconds (measured here), 29.48 Kbytes per second
+CWD /public_html/Files
+250 OK. Current directory is /public_html/Files
 CWD /public_html
 250 OK. Current directory is /public_html
 MKD Templates
@@ -277,14 +131,109 @@ CWD Templates
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (145,14,145,229,131,172).
+227 Entering Passive Mode (145,14,144,13,189,48).
 STOR Base.css
-150 Connecting to port 51202
+150 Connecting to port 39329
 226-File successfully transferred
-226 0.388 seconds (measured here), 2.76 Kbytes per second
+226 0.229 seconds (measured here), 5.14 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,193,42).
+STOR Base.tdat
+150 Connecting to port 31190
+226-File successfully transferred
+226 14.741 seconds (measured here), 16.39 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,118,29).
+STOR base2.css
+150 Connecting to port 42187
+226-File successfully transferred
+226 1.035 seconds (measured here), 1.19 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,169,78).
+STOR base2.tdat
+150 Connecting to port 33684
+226-File successfully transferred
+226 20.406 seconds (measured here), 11.92 Kbytes per second
+CWD /public_html
+250 OK. Current directory is /public_html
+MKD WEFiles
+550 Can't create directory: File exists
+CWD WEFiles
+250 OK. Current directory is /public_html/WEFiles
+PWD
+257 "/public_html/WEFiles" is your current location
+MKD Image
+550 Can't create directory: File exists
+CWD Image
+250 OK. Current directory is /public_html/WEFiles/Image
+PWD
+257 "/public_html/WEFiles/Image" is your current location
+MKD WEImage
+550 Can't create directory: File exists
+CWD WEImage
+250 OK. Current directory is /public_html/WEFiles/Image/WEImage
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,173,237).
+STOR app_pht_luc-WE2b23656e23.png
+150 Connecting to port 43521
+226-File successfully transferred
+226 2.976 seconds (measured here), 4.93 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,171,240).
+STOR billoumais-WE5b99e4425b.png
+150 Connecting to port 37260
+226-File successfully transferred
+226 3.284 seconds (measured here), 25.81 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,185,255).
+STOR chatluc-WEcc7696db1f.png
+150 Connecting to port 45077
+226-File successfully transferred
+226 1.129 seconds (measured here), 11.66 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,212,6).
+STOR fenetre_luc-WE88f3d4572a.png
+150 Connecting to port 30186
+226-File successfully transferred
+226 4.608 seconds (measured here), 11.88 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,185,13).
+STOR LOGOCONFI-WE82de904c51.png
+150 Connecting to port 42390
+226-File successfully transferred
+226 2.641 seconds (measured here), 7.97 Kbytes per second
+TYPE I
+200 TYPE is now 8-bit binary
+PASV
+227 Entering Passive Mode (145,14,144,13,201,209).
+STOR replay-WEdf7a3123be.png
+150 Connecting to port 44343
+226-File successfully transferred
+226 2.892 seconds (measured here), 3.69 Kbytes per second
+CWD /public_html/WEFiles/Image
+250 OK. Current directory is /public_html/WEFiles/Image
+CWD /public_html/WEFiles
+250 OK. Current directory is /public_html/WEFiles
 CWD /public_html
 250 OK. Current directory is /public_html
 PWD
 257 "/public_html" is your current location
+421 Idle timeout (30 seconds): closing control connection
 Déconnexion du serveur
 QUIT

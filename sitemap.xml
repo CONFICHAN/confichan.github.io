@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://confichan.000webhostapp.com/</loc>
-    <lastmod>2020-03-26</lastmod>
+    <lastmod>2020-04-02</lastmod>
   </url>
   <url oeid="5c348634-911f-4856-aba0-16f4544fe7c7" oelang="DEFAULT">
     <loc>http://confichan.000webhostapp.com/index.htm</loc>
-    <lastmod>2020-03-26</lastmod>
+    <lastmod>2020-04-02</lastmod>
   </url>
   <url oeid="0f14c9b9-816c-41bd-8550-8b686bf61797" oelang="DEFAULT">
     <loc>http://confichan.000webhostapp.com/agenda.htm</loc>
@@ -18,7 +18,7 @@
   </url>
   <url oeid="f165a17f-f728-4882-a1ff-457063910c05" oelang="DEFAULT">
     <loc>http://confichan.000webhostapp.com/REPLAY.htm</loc>
-    <lastmod>2020-03-26</lastmod>
+    <lastmod>2020-03-27</lastmod>
   </url>
   <url oeid="ff4cdc61-80a9-47b6-9460-a267be98fd8a" oelang="DEFAULT">
     <loc>http://confichan.000webhostapp.com/18.htm</loc>
@@ -54,10 +54,34 @@
   </url>
   <url oeid="39550222-a605-4a67-b4de-2fbd91ece8a4" oelang="DEFAULT">
     <loc>http://confichan.000webhostapp.com/24.htm</loc>
-    <lastmod>2020-03-26</lastmod>
+    <lastmod>2020-03-27</lastmod>
   </url>
   <url oeid="68788b8f-db3d-41ea-8035-4e11c2502006" oelang="DEFAULT">
     <loc>http://confichan.000webhostapp.com/PHOTO.htm</loc>
-    <lastmod>2020-03-26</lastmod>
+    <lastmod>2020-03-31</lastmod>
+  </url>
+  <url oeid="29932f15-5163-4542-a0a2-478779db22cb" oelang="DEFAULT">
+    <loc>http://confichan.000webhostapp.com/25.htm</loc>
+    <lastmod>2020-03-27</lastmod>
+  </url>
+  <url oeid="706e6079-ee87-43e0-8cc1-aed1ddd6f8c6" oelang="DEFAULT">
+    <loc>http://confichan.000webhostapp.com/26.htm</loc>
+    <lastmod>2020-03-27</lastmod>
+  </url>
+  <url oeid="4bff99d3-5197-4114-b798-76f8df41f92a" oelang="DEFAULT">
+    <loc>http://confichan.000webhostapp.com/27.htm</loc>
+    <lastmod>2020-03-28</lastmod>
+  </url>
+  <url oeid="ff33ccd5-7471-4a81-a845-450c1fc87bc7" oelang="DEFAULT">
+    <loc>http://confichan.000webhostapp.com/28.htm</loc>
+    <lastmod>2020-03-31</lastmod>
+  </url>
+  <url oeid="c1730a20-0e0d-46ad-8e97-0ab8e8cbb977" oelang="DEFAULT">
+    <loc>http://confichan.000webhostapp.com/29.htm</loc>
+    <lastmod>2020-04-02</lastmod>
+  </url>
+  <url oeid="2b62bd72-06bf-4e87-95c5-0acfb79afdd3" oelang="DEFAULT">
+    <loc>http://confichan.000webhostapp.com/copie-29.htm</loc>
+    <lastmod>2020-03-31</lastmod>
   </url>
 </urlset>
