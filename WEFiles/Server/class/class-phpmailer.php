@@ -577,7 +577,7 @@ ini_set("display_errors",1);
    * @return bool
    */
   
-	function simpleSmtpSend($headers, $body, $host, $username, $password, $port = null) {
+	function simpleSmtpSend($headers, $body, $host, $username, $password, $port) {
 		if (phpversion() < '5') {
 			return false; // only for PHP5+
 		}
@@ -1348,16 +1348,12 @@ ini_set("display_errors",1);
       $this->SetError($this->Lang('file_open') . $path);
       return '';
     }
-	if (function_exists("set_magic_quotes_runtime")) { //OE fix for PHP7 where set_magic_quotes_runtime does not exist
-		$magic_quotes = get_magic_quotes_runtime();
-		set_magic_quotes_runtime(0);
-	}
+    $magic_quotes = get_magic_quotes_runtime();
+    set_magic_quotes_runtime(0);
     $file_buffer = fread($fd, filesize($path));
     $file_buffer = $this->EncodeString($file_buffer, $encoding);
     fclose($fd);
-	if (function_exists("set_magic_quotes_runtime")) { //OE fix for PHP7
-		set_magic_quotes_runtime($magic_quotes);
-	}
+    set_magic_quotes_runtime($magic_quotes);
 
     return $file_buffer;
   }

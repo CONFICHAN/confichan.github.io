@@ -27,17 +27,17 @@
     </xs:element>
   </xs:schema>
   <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan_Backup\Backup\.htaccess</LocalPath>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2_Backup\Backup\.htaccess</LocalPath>
     <Index>1</Index>
     <Path>Backup/.htaccess</Path>
     <Size>33</Size>
     <Command>Add</Command>
-    <Progress>0</Progress>
-    <Retry>0</Retry>
-    <Success>false</Success>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
   </FtpData>
   <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\.htaccess</LocalPath>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2\.htaccess</LocalPath>
     <Index>2</Index>
     <Path>.htaccess</Path>
     <Size>0</Size>
@@ -47,200 +47,60 @@
     <Success>true</Success>
   </FtpData>
   <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Templates\Base.tdat</LocalPath>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2\index.css</LocalPath>
     <Index>3</Index>
-    <Path>Templates/Base.tdat</Path>
-    <Size>0</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Templates\base2.tdat</LocalPath>
-    <Index>4</Index>
-    <Path>Templates/base2.tdat</Path>
-    <Size>0</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Files\Image\LOGOCONFI.png</LocalPath>
-    <Index>5</Index>
-    <Path>Files/Image/LOGOCONFI.png</Path>
-    <Size>47062</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\WEFiles\Image\WEImage\LOGOCONFI-WE82de904c51.png</LocalPath>
-    <Index>6</Index>
-    <Path>WEFiles/Image/WEImage/LOGOCONFI-WE82de904c51.png</Path>
-    <Size>21551</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Files\Image\fenetre_luc.png</LocalPath>
-    <Index>7</Index>
-    <Path>Files/Image/fenetre_luc.png</Path>
-    <Size>322607</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\WEFiles\Image\WEImage\fenetre_luc-WE88f3d4572a.png</LocalPath>
-    <Index>8</Index>
-    <Path>WEFiles/Image/WEImage/fenetre_luc-WE88f3d4572a.png</Path>
-    <Size>56066</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Files\Image\billoumais.png</LocalPath>
-    <Index>9</Index>
-    <Path>Files/Image/billoumais.png</Path>
-    <Size>380966</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\WEFiles\Image\WEImage\billoumais-WE5b99e4425b.png</LocalPath>
-    <Index>10</Index>
-    <Path>WEFiles/Image/WEImage/billoumais-WE5b99e4425b.png</Path>
-    <Size>86797</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Files\Image\chatluc.png</LocalPath>
-    <Index>11</Index>
-    <Path>Files/Image/chatluc.png</Path>
-    <Size>38960</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\WEFiles\Image\WEImage\chatluc-WEcc7696db1f.png</LocalPath>
-    <Index>12</Index>
-    <Path>WEFiles/Image/WEImage/chatluc-WEcc7696db1f.png</Path>
-    <Size>13472</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Files\Image\replay.png</LocalPath>
-    <Index>13</Index>
-    <Path>Files/Image/replay.png</Path>
-    <Size>176708</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\WEFiles\Image\WEImage\replay-WEdf7a3123be.png</LocalPath>
-    <Index>14</Index>
-    <Path>WEFiles/Image/WEImage/replay-WEdf7a3123be.png</Path>
-    <Size>10941</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Files\Image\app_pht_luc.png</LocalPath>
-    <Index>15</Index>
-    <Path>Files/Image/app_pht_luc.png</Path>
-    <Size>176166</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\WEFiles\Image\WEImage\app_pht_luc-WE2b23656e23.png</LocalPath>
-    <Index>16</Index>
-    <Path>WEFiles/Image/WEImage/app_pht_luc-WE2b23656e23.png</Path>
-    <Size>15030</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\29.css</LocalPath>
-    <Index>17</Index>
-    <Path>29.css</Path>
-    <Size>663</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\29.htm</LocalPath>
-    <Index>18</Index>
-    <Path>29.htm</Path>
-    <Size>5130</Size>
-    <Command>Add</Command>
-    <Progress>100</Progress>
-    <Retry>1</Retry>
-    <Success>true</Success>
-  </FtpData>
-  <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\index.css</LocalPath>
-    <Index>19</Index>
     <Path>index.css</Path>
-    <Size>686</Size>
+    <Size>556</Size>
     <Command>Add</Command>
     <Progress>100</Progress>
     <Retry>1</Retry>
     <Success>true</Success>
   </FtpData>
   <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\index.htm</LocalPath>
-    <Index>20</Index>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2_Backup\Backup\index.dat</LocalPath>
+    <Index>4</Index>
+    <Path>Backup/index.dat</Path>
+    <Size>56850</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2\index.htm</LocalPath>
+    <Index>5</Index>
     <Path>index.htm</Path>
-    <Size>6022</Size>
+    <Size>1987</Size>
     <Command>Add</Command>
     <Progress>100</Progress>
     <Retry>1</Retry>
     <Success>true</Success>
   </FtpData>
   <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Templates\Base.css</LocalPath>
-    <Index>21</Index>
-    <Path>Templates/Base.css</Path>
-    <Size>1207</Size>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2\sitemap.xml</LocalPath>
+    <Index>6</Index>
+    <Path>sitemap.xml</Path>
+    <Size>419</Size>
     <Command>Add</Command>
     <Progress>100</Progress>
     <Retry>1</Retry>
     <Success>true</Success>
   </FtpData>
   <FtpData>
-    <LocalPath>C:\Users\HICHEMM\AppData\Local\Temp\openElementFtp\confichan\Templates\base2.css</LocalPath>
-    <Index>22</Index>
-    <Path>Templates/base2.css</Path>
-    <Size>1264</Size>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2\robots.txt</LocalPath>
+    <Index>7</Index>
+    <Path>robots.txt</Path>
+    <Size>44</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2_Backup\Backup\CONFICHAN2.ope</LocalPath>
+    <Index>8</Index>
+    <Path>Backup/CONFICHAN2.ope</Path>
+    <Size>3595</Size>
     <Command>Add</Command>
     <Progress>100</Progress>
     <Retry>1</Retry>

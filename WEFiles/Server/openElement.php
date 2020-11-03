@@ -12,6 +12,10 @@ $dir_openElementphp = dirname(__FILE__);
 
 fixSERVERLowerCaseKeys();
 
+if (!function_exists('json_encode') || !function_exists('json_decode')) { // only if no built-in json support
+	require_once $dir_openElementphp."/class/JSON.php";
+}
+
 if (!isset($oeRequireControl_NoMail)) { // to significantly reduce loading time when no need for mailing functionality
 	require_once $dir_openElementphp."/class/class-phpmailer.php"; //phpmailer
 	require_once $dir_openElementphp."/class/class-smtp.php";  //phpmailer
@@ -43,7 +47,7 @@ function detectBrowserLanguage() {
 include_once $dir_openElementphp."/VarText.php"; // MC&DD browser-language-dependent string constants
 
 
-function GetErrMessage($_legacy,$WEInfoPage,$name) {
+function GetErrMessage($objJson,$WEInfoPage,$name) {
 	//Deserialisation des message d'erreurs
 	if (empty( $WEInfoPage )) 
 	{
@@ -51,7 +55,7 @@ function GetErrMessage($_legacy,$WEInfoPage,$name) {
 	} else {
 		$jsonErr = $WEInfoPage;	
 	}
-	$MsgErr = json_decode($jsonErr);
+	$MsgErr = $objJson->Decode($jsonErr);
 	
 	return $MsgErr->$name;
 	
@@ -91,7 +95,7 @@ function WECaptchaCheck($code,$IdElem,$OEVersion) {
 	var $TabElementsID;
 	
 	// constructeur
-	public function __construct($JsonData) {
+	function OEDataFormLinks($JsonData) {
 		$this->TabElementsID = array();
 		foreach ($JsonData->ElementsID as $ID => $Type){
 			 array_push($this->TabElementsID, new OEDataFormLinksElement($ID,$Type));
@@ -107,7 +111,7 @@ class OEDataFormLinksElement {
 	var $Type;
 	
 	//Constructeur
-	public function __construct($ID,$Type) {
+	function OEDataFormLinksElement($ID,$Type) {
 		$this->ID=$ID;
 		$this->Type=$Type;
 	}
@@ -146,11 +150,43 @@ class OECssUnit {
   
 //Encodage et Decodage du JSON
 class OEJSON {
-	function Encode($obj) {
-		return json_encode($obj);
+	
+	function OEJSON() {
+	
 	}
+	
+	function Encode($obj) {
+		if (function_exists('json_encode')) { // built-in fast way
+
+			return json_encode($obj);
+
+		} else {// this way is very slow but php4-compatible:
+			
+			$ObjJson=new Services_JSON();
+			
+			return $ObjJson->encode($obj);// Services_JSON::isError($ObjJson->encode($obj));
+		}
+
+	}
+
 	function Decode($json, $toAssocArray = false) {
-		return json_decode($json, $toAssocArray);
+		/* No need any more (remove after enough tests):
+		if ($applyReplacements) {
+			$escapers = array("\\", "/","\\\"", "\n", "\r", "\t", "\x08", "\x0c");
+			$replacements = array("\\\\", "\\/","\\\\\"",  "\\n", "\\r", "\\t", "\\f", "\\b");
+			$json = str_replace($escapers, $replacements, $json); 
+		}*/
+		
+		if (function_exists('json_decode')) {
+			return json_decode($json, $toAssocArray);
+		} else { // this way is very slow but php4-compatible:
+			$ObjJson = (!$toAssocArray) ?
+				new Services_JSON() : // decode as Object when possible
+				new Services_JSON(SERVICES_JSON_LOOSE_TYPE); // always decode as Associative Array
+		
+			$result=$ObjJson->decode($json);
+			return $result;
+		}
 	}
 }
 
@@ -162,12 +198,159 @@ class OEReturn
 	var $ErrorDescription;
 
 	// constructeur
-	public function __construct($s, $errDesc) {
+	function OEReturn($s, $errDesc) {
 		$this->State = $s;
 		$this->ErrorDescription = $errDesc;
 	}
 }
 
+
+
+
+
+
+ /*
+ //Envoi d'email
+class OEMail {
+
+	var $parts;
+	var $to;
+	var $from;
+	var $headers;
+	var $subject;
+	var $body;
+	var $contact;
+	var $cc; 
+	var $cci; 
+	var $boundary;
+	var $TextUTF8;
+	var $BodyContentType;
+
+	// constructeur
+	//$TextUTF8 : True ou false  :  indique si les textes sont deja en utf-8 ou non
+	//$Format : Format du texte du message : "HTML" ou "Text"
+	function OEMail($TextUTF8, $Format)
+	{
+
+		$this->parts = array();
+		$this->to = "";
+		$this->from = "";
+		$this->subject = "";
+		$this->body = "";
+		$this->headers = "";
+		$this->contact = "";
+		$this->cc=""; 
+		$this->cci=""; 
+		$this->TextUTF8=$TextUTF8;
+		
+		if ( $Format=="HTML") {
+			$this->BodyContentType="text/html";
+			} else {
+			$this->BodyContentType="text/plain";
+		}
+		// clé aléatoire de limite
+		$this->boundary = "----=_Part_" . md5( uniqid ( rand() ) );
+	}
+	
+	//Fonction d'envoi
+	//return 0 : Erreur
+	//		 1 : Reussite
+	//		 2 : Fonction mail inactive
+	function send() {
+		
+		if (!function_exists('mail')) {
+			return 2;
+		}
+		
+		if (empty($this->contact)) {
+			$contact=$this->from;
+			} else {
+			$contact=$this->contact;
+		}
+
+
+		 $limite = $this->boundary;
+
+		 //headers du mail
+		 $headers = "From:".$contact." <".$this->from.">". "\r\n";
+		 if (!empty($this->cc)) $headers .= "Cc: ".$this->cc. "\r\n"; //copy
+		 if (!empty($this->cci)) $headers.= "Bcc: ".$this->cci. "\r\n"; // Copies cachées
+		 $headers .= "Reply-To: <".$this->from.">\r\n"; 
+		 $headers .= "Return-Path: ".$this->from."\r\n"; 
+		 $headers .= "MIME-Version: 1.0\r\n";
+		 $headers .= "Content-Type: multipart/mixed;
+		 boundary=\"".$limite."\"\r\n"; 
+		
+		if ( $this->TextUTF8==false) {
+			$this->subject = utf8_encode($this->subject);
+			$this->body = utf8_encode($this->body);
+		}
+		
+		 
+		$body = $this->CreateBody();
+
+		//pieces jointes
+		$attachement="";
+		for($i = sizeof($this->parts) - 1; $i >= 0; $i--) {
+			$FilePath=$this->parts[$i];
+			
+			if (file_exists($FilePath)) {
+			
+				$attachement .= $this->CreateAttachement($FilePath);
+			}
+			
+		}
+		$message=$body.$attachement;
+		$message.="\r\n\r\n--".$this->boundary."--\r\n\r\n"; 
+		if ( $this->TextUTF8==false) {
+
+			return mail($this->to,$this->subject ,$body.$attachement, $headers);
+			} else {
+			return mail($this->to, '=?UTF-8?B?'.base64_encode($this->subject).'?=',$body.$attachement, $headers);
+		}
+	}
+	
+	//Creation di corps du message
+	 function CreateBody() {
+		$limite = $this->boundary;//"----=_Part_" . md5( uniqid ( rand() ) );
+		
+	 	//le corps du message(html)
+		$body = "--".$limite."\r\n"; 
+		$body .= "Content-Type: ".$this->BodyContentType."; ";
+		$body .= "charset=\"UTF-8\"\r\n";
+		$body .= "Content-Disposition: inline \r\n\r\n ";
+		$body .= $this->body;
+		$body .= "\r\n\r\n";
+		$body .= "\r\n\r\n";
+		return $body;
+	}
+	
+	//Creation des piece jointe 
+	//$FilePath : Chemin du fichier
+	 function CreateAttachement($FilePath) {
+		$limite = $this->boundary;//"----=_Part_" . md5( uniqid ( rand() ) );
+		
+		//$FileType =  $this->GetContentType($FilePath); 
+		$FileSize = filesize($FilePath);
+	
+		$handle = fopen($FilePath, 'r') or die('File '.$FilePath.'can t be open');
+		$content = fread($handle, $FileSize);
+		$content = chunk_split(base64_encode($content));
+		$f = fclose($handle);
+
+		$attachement = "--".$limite."\r\n"; 
+		$attachement .= "Content-Type:application/octet-stream name=".$FilePath."\r\n";
+		$attachement .= "Content-Transfer-Encoding: base64\r\n";
+
+		$attachement .= "Content-Disposition: attachment; filename=".basename($FilePath)."\r\n\r\n"; 
+		$attachement .= $content."\r\n";
+		
+		return $attachement;
+	}
+
+	
+}; // fin de la classe 
+*/
 
  //Type de donnée générique OE : FormLinks
  // renvoie la liste des éléments  (OEDataFormLinks) dans $TabElementsID
@@ -179,7 +362,7 @@ class OEUploadFile {
 	var $DestFileNames; //Noms du fichiers de destination finals (array!)
 	
 	// constructeur
-	public function __construct($allowedTypesExt, $allowedMaxSize, $dir_extract)	{
+	 function OEUploadFile($allowedTypesExt, $allowedMaxSize, $dir_extract)	{
 		$this->allowedTypesExt = $allowedTypesExt;
 		$this->allowedMaxSize = $allowedMaxSize;
 		$this->dir_extract = $dir_extract;
@@ -253,7 +436,7 @@ class OEUploadFile {
 
 			if (!move_uploaded_file($FileNameTmp, $DestFileName)) 
 			{
-				return new OEReturn ("error",GetErrMessage(null,$WEInfoPage,"NoUploadRight"));
+				return new OEReturn ("error",GetErrMessage($objJson,$WEInfoPage,"NoUploadRight"));
 			}
 			
 		}
@@ -286,7 +469,7 @@ class OEMail {
 	//$TextUTF8 : True ou false  :  indique si les textes sont deja en utf-8 ou non
 	//$IsHTML : Format du texte du message : "HTML" =true ou "Text"=false
 	//$ConfSendMail : objet de configuration de l'envoi d'email.
-	public function __construct($IsHTML,$ConfSendMail)
+	function OEMail($IsHTML,$ConfSendMail)
 	{
 
 		$this->parts = array();
@@ -426,8 +609,7 @@ or
 class COESecurity {
 	
 	var $wl_basic = 'A-Za-z0-9_\-';
-	var $wl_intpages = '\(\)+\.\s';
-	var $wl_int_mail = '\(\)+\.'; // 01.01.17 removed \s for security reasons
+	var $wl_intpages = '\s\(\)+\.';
 	var $wl_int_path = '\/';
 	var $wl_int_path_extended = '~#@!\$&\'*+="%';
 	var $wl_ext_url = ':\?\[\],;';
@@ -445,10 +627,10 @@ class COESecurity {
 	}
 
 	function simpleClean($elem) {
-		if(!is_array($elem))
+		if(!is_array($elem)) 
 			$elem = htmlentities($elem, ENT_QUOTES, "UTF-8");
 		else {
-			foreach ($elem as $key => $value)
+			foreach ($elem as $key => $value) 
 				$elem[$key] = $this->clean($value);
 		}
 		return $elem;
@@ -458,5 +640,5 @@ class COESecurity {
 
 $OESecurity = new COESecurity();
 $Security =& $OESecurity; // remove later $Security from all scripts and from here
-
+ 
 ?>

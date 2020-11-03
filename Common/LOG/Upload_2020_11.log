@@ -1,0 +1,240 @@
+11/2/2020 12:29:51 PM | Debut Mise en ligne complete (Site):
+11/2/2020 12:29:52 PM | Listing terminé :
+11/2/2020 12:29:52 PM | 
+
+11/2/2020 12:29:52 PM | * WEFiles-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Xml-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Server-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Server/language-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/DBTools-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Server/class-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Other-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Image-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Font-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/EG-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Css-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Css/v02-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Css/v01-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Client-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Client/jQuery-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Client/jQuery/Plugins-- -- --Folder create
+11/2/2020 12:29:52 PM | * WEFiles/Client/Common-- -- --Folder create
+11/2/2020 12:29:52 PM | * Templates-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files/Video-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files/Other-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files/Media-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files/Image-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files/Fonts-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files/Flash-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files/Audio-- -- --Folder create
+11/2/2020 12:29:52 PM | * Data-- -- --Folder create
+11/2/2020 12:29:52 PM | * Backup-- -- --Folder create
+11/2/2020 12:29:52 PM | * Common-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files\Other-- -- --Folder create
+11/2/2020 12:29:52 PM | * Files\Fonts-- -- --Folder create
+11/2/2020 12:29:52 PM | * Backup/.htaccess-- -- --33
+11/2/2020 12:29:52 PM | * Data/.htaccess-- -- --13
+11/2/2020 12:29:52 PM | * WEFiles/Client/Common/oe.min.js-- -- --15699
+11/2/2020 12:29:52 PM | * WEFiles/Client/jQuery/Plugins/jquery.form.js-- -- --11659
+11/2/2020 12:29:52 PM | * WEFiles/Client/jQuery/Plugins/jquery.ui.core.js-- -- --19590
+11/2/2020 12:29:52 PM | * WEFiles/Client/jQuery/Plugins/jquery.ui.effects.js-- -- --25199
+11/2/2020 12:29:52 PM | * WEFiles/Client/jQuery/1.10.2.js-- -- --93107
+11/2/2020 12:29:52 PM | * WEFiles/Client/jQuery/migrate.js-- -- --7202
+11/2/2020 12:29:52 PM | * WEFiles/Client/OEDB.js-- -- --1856
+11/2/2020 12:29:52 PM | * WEFiles/Client/OEDBClasses.js-- -- --2280
+11/2/2020 12:29:52 PM | * WEFiles/Client/opentip-jquery.min.js-- -- --44974
+11/2/2020 12:29:52 PM | * WEFiles/Css/v01/openElement.css-- -- --5805
+11/2/2020 12:29:52 PM | * WEFiles/Css/v02/openElement.css-- -- --5907
+11/2/2020 12:29:52 PM | * WEFiles/Css/v02/openElement.int.css-- -- --6005
+11/2/2020 12:29:52 PM | * WEFiles/Css/ie7.css-- -- --833
+11/2/2020 12:29:52 PM | * WEFiles/Css/opentip.css-- -- --9211
+11/2/2020 12:29:52 PM | * WEFiles/Image/Code.png-- -- --831
+11/2/2020 12:29:52 PM | * WEFiles/Image/delete.png-- -- --1465
+11/2/2020 12:29:52 PM | * WEFiles/Image/empty.png-- -- --184
+11/2/2020 12:29:52 PM | * WEFiles/Image/information2.png-- -- --3246
+11/2/2020 12:29:52 PM | * WEFiles/Image/loading.gif-- -- --1924
+11/2/2020 12:29:52 PM | * WEFiles/Image/Loading2.gif-- -- --4941
+11/2/2020 12:29:52 PM | * WEFiles/Image/mask.png-- -- --213
+11/2/2020 12:29:52 PM | * WEFiles/Image/ModalBackgound.png-- -- --27145
+11/2/2020 12:29:52 PM | * WEFiles/Image/ModalPopupBlock.png-- -- --268
+11/2/2020 12:29:52 PM | * WEFiles/Image/ServerError.png-- -- --2602
+11/2/2020 12:29:52 PM | * WEFiles/Image/warning.png-- -- --816
+11/2/2020 12:29:52 PM | * WEFiles/Image/WEW3C.png-- -- --1882
+11/2/2020 12:29:52 PM | * WEFiles/Server/class/class-phpmailer.php-- -- --65471
+11/2/2020 12:29:52 PM | * WEFiles/Server/class/class-smtp.php-- -- --32442
+11/2/2020 12:29:52 PM | * WEFiles/Server/class/JSON.php-- -- --34073
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/DBTools/OEDataContainers.php-- -- --58077
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/DBTools/OEDBRequest.php-- -- --36412
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/DBTools/OEDynUtils.php-- -- --16240
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/.htaccess-- -- --13
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/OEDB.php-- -- --28741
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/OEDBClasses.php-- -- --84483
+11/2/2020 12:29:52 PM | * WEFiles/Server/DB/sqllogin.php-- -- --1479
+11/2/2020 12:29:52 PM | * WEFiles/Server/language/phpmailer.lang-en.php-- -- --1188
+11/2/2020 12:29:52 PM | * WEFiles/Server/language/phpmailer.lang-fr.php-- -- --1297
+11/2/2020 12:29:52 PM | * WEFiles/Server/openElement.php-- -- --18660
+11/2/2020 12:29:52 PM | * WEFiles/Server/VarText.php-- -- --4306
+11/2/2020 12:29:52 PM | * .htaccess-- -- --0
+11/2/2020 12:29:52 PM | * index.css-- -- --556
+11/2/2020 12:29:52 PM | * Backup/index.dat-- -- --56761
+11/2/2020 12:29:52 PM | * index.htm-- -- --1998
+11/2/2020 12:29:52 PM | * robots.txt-- -- --54
+11/2/2020 12:29:52 PM | * sitemap.xml-- -- --439
+11/2/2020 12:29:52 PM | * Templates/BaseCalque.css-- -- --477
+11/2/2020 12:29:52 PM | * Backup/Templates/BaseCalque.tdat-- -- --40496
+11/2/2020 12:29:52 PM | * Backup/Common/Garbage.cfg-- -- --348
+11/2/2020 12:29:52 PM | * Backup/Common/Linkmap.cfg-- -- --12400
+11/2/2020 12:29:52 PM | * Backup/Common/Lock.cfg-- -- --441
+11/2/2020 12:29:52 PM | * Backup/Common/Palette.xml-- -- --295
+11/2/2020 12:29:52 PM | * Backup/Common/Palette.xml.upd-- -- --9
+11/2/2020 12:29:52 PM | * Backup/Common/SiteConfig.cfg-- -- --38899
+11/2/2020 12:29:52 PM | * Backup/Common/User.cfg-- -- --590
+11/2/2020 12:29:52 PM | * Backup/CONFICHAN2.ope-- -- --3597
+11/2/2020 12:29:52 PM | 
+11/2/2020 12:29:52 PM | 
+--------------------------------Phase 1 Terminé--------------------------------
+11/2/2020 12:29:52 PM | 
+
+11/2/2020 12:31:59 PM | Debut Mise en ligne différentielle (Site):
+11/2/2020 12:31:59 PM | Listing terminé :
+11/2/2020 12:31:59 PM | 
+
+11/2/2020 12:31:59 PM | * Backup-- -- --Folder create
+11/2/2020 12:31:59 PM | * Templates-- -- --Folder create
+11/2/2020 12:31:59 PM | * Backup/.htaccess-- -- --33
+11/2/2020 12:31:59 PM | * .htaccess-- -- --0
+11/2/2020 12:31:59 PM | * index.css-- -- --556
+11/2/2020 12:31:59 PM | * Backup/index.dat-- -- --56735
+11/2/2020 12:31:59 PM | * index.htm-- -- --1972
+11/2/2020 12:31:59 PM | * sitemap.xml-- -- --439
+11/2/2020 12:31:59 PM | * robots.txt-- -- --54
+11/2/2020 12:31:59 PM | * Backup/CONFICHAN2.ope-- -- --3597
+11/2/2020 12:31:59 PM | 
+11/2/2020 12:31:59 PM | 
+--------------------------------Phase 1 Terminé--------------------------------
+11/2/2020 12:31:59 PM | 
+
+11/3/2020 11:02:17 AM | Debut Mise en ligne complete (Site):
+11/3/2020 11:02:17 AM | Listing terminé :
+11/3/2020 11:02:17 AM | 
+
+11/3/2020 11:02:17 AM | * WEFiles-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Xml-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Server-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Server/language-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/DBTools-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Server/class-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Other-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Image-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Font-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/EG-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Css-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Css/v02-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Css/v01-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Client-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Client/jQuery-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Client/jQuery/Plugins-- -- --Folder create
+11/3/2020 11:02:17 AM | * WEFiles/Client/Common-- -- --Folder create
+11/3/2020 11:02:17 AM | * Templates-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files/Video-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files/Other-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files/Media-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files/Image-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files/Fonts-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files/Flash-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files/Audio-- -- --Folder create
+11/3/2020 11:02:17 AM | * Data-- -- --Folder create
+11/3/2020 11:02:17 AM | * Backup-- -- --Folder create
+11/3/2020 11:02:17 AM | * Common-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files\Other-- -- --Folder create
+11/3/2020 11:02:17 AM | * Files\Fonts-- -- --Folder create
+11/3/2020 11:02:17 AM | * Backup/.htaccess-- -- --33
+11/3/2020 11:02:17 AM | * Data/.htaccess-- -- --13
+11/3/2020 11:02:17 AM | * WEFiles/Client/Common/oe.min.js-- -- --15699
+11/3/2020 11:02:17 AM | * WEFiles/Client/jQuery/Plugins/jquery.form.js-- -- --11659
+11/3/2020 11:02:17 AM | * WEFiles/Client/jQuery/Plugins/jquery.ui.core.js-- -- --19590
+11/3/2020 11:02:17 AM | * WEFiles/Client/jQuery/Plugins/jquery.ui.effects.js-- -- --25199
+11/3/2020 11:02:17 AM | * WEFiles/Client/jQuery/1.10.2.js-- -- --93107
+11/3/2020 11:02:17 AM | * WEFiles/Client/jQuery/migrate.js-- -- --7202
+11/3/2020 11:02:17 AM | * WEFiles/Client/OEDB.js-- -- --1856
+11/3/2020 11:02:17 AM | * WEFiles/Client/OEDBClasses.js-- -- --2280
+11/3/2020 11:02:17 AM | * WEFiles/Client/opentip-jquery.min.js-- -- --44974
+11/3/2020 11:02:17 AM | * WEFiles/Css/v01/openElement.css-- -- --5805
+11/3/2020 11:02:17 AM | * WEFiles/Css/v02/openElement.css-- -- --5907
+11/3/2020 11:02:17 AM | * WEFiles/Css/v02/openElement.int.css-- -- --6005
+11/3/2020 11:02:17 AM | * WEFiles/Css/ie7.css-- -- --833
+11/3/2020 11:02:17 AM | * WEFiles/Css/opentip.css-- -- --9211
+11/3/2020 11:02:17 AM | * WEFiles/Image/Code.png-- -- --831
+11/3/2020 11:02:17 AM | * WEFiles/Image/delete.png-- -- --1465
+11/3/2020 11:02:17 AM | * WEFiles/Image/empty.png-- -- --184
+11/3/2020 11:02:17 AM | * WEFiles/Image/information2.png-- -- --3246
+11/3/2020 11:02:17 AM | * WEFiles/Image/loading.gif-- -- --1924
+11/3/2020 11:02:17 AM | * WEFiles/Image/Loading2.gif-- -- --4941
+11/3/2020 11:02:17 AM | * WEFiles/Image/mask.png-- -- --213
+11/3/2020 11:02:17 AM | * WEFiles/Image/ModalBackgound.png-- -- --27145
+11/3/2020 11:02:17 AM | * WEFiles/Image/ModalPopupBlock.png-- -- --268
+11/3/2020 11:02:17 AM | * WEFiles/Image/ServerError.png-- -- --2602
+11/3/2020 11:02:17 AM | * WEFiles/Image/warning.png-- -- --816
+11/3/2020 11:02:17 AM | * WEFiles/Image/WEW3C.png-- -- --1882
+11/3/2020 11:02:17 AM | * WEFiles/Server/class/class-phpmailer.php-- -- --65471
+11/3/2020 11:02:17 AM | * WEFiles/Server/class/class-smtp.php-- -- --32442
+11/3/2020 11:02:17 AM | * WEFiles/Server/class/JSON.php-- -- --34073
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/DBTools/OEDataContainers.php-- -- --58077
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/DBTools/OEDBRequest.php-- -- --36412
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/DBTools/OEDynUtils.php-- -- --16240
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/.htaccess-- -- --13
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/OEDB.php-- -- --28741
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/OEDBClasses.php-- -- --84483
+11/3/2020 11:02:17 AM | * WEFiles/Server/DB/sqllogin.php-- -- --1479
+11/3/2020 11:02:17 AM | * WEFiles/Server/language/phpmailer.lang-en.php-- -- --1188
+11/3/2020 11:02:17 AM | * WEFiles/Server/language/phpmailer.lang-fr.php-- -- --1297
+11/3/2020 11:02:17 AM | * WEFiles/Server/openElement.php-- -- --18660
+11/3/2020 11:02:17 AM | * WEFiles/Server/VarText.php-- -- --4306
+11/3/2020 11:02:17 AM | * .htaccess-- -- --0
+11/3/2020 11:02:17 AM | * index.css-- -- --556
+11/3/2020 11:02:17 AM | * Backup/index.dat-- -- --56821
+11/3/2020 11:02:17 AM | * index.htm-- -- --1958
+11/3/2020 11:02:17 AM | * robots.txt-- -- --44
+11/3/2020 11:02:17 AM | * sitemap.xml-- -- --419
+11/3/2020 11:02:17 AM | * Templates/BaseCalque.css-- -- --477
+11/3/2020 11:02:17 AM | * Backup/Templates/BaseCalque.tdat-- -- --40496
+11/3/2020 11:02:17 AM | * Backup/Common/DataFileSyncFtp.xml-- -- --3942
+11/3/2020 11:02:17 AM | * Backup/Common/FTPLog.txt-- -- --3251
+11/3/2020 11:02:17 AM | * Backup/Common/Garbage.cfg-- -- --348
+11/3/2020 11:02:17 AM | * Backup/Common/Linkmap.cfg-- -- --12400
+11/3/2020 11:02:17 AM | * Backup/Common/Lock.cfg-- -- --441
+11/3/2020 11:02:17 AM | * Backup/Common/OEGuideline.cfg-- -- --58869
+11/3/2020 11:02:17 AM | * Backup/Common/Palette.xml-- -- --295
+11/3/2020 11:02:17 AM | * Backup/Common/Palette.xml.upd-- -- --9
+11/3/2020 11:02:17 AM | * Backup/Common/SiteConfig.cfg-- -- --40945
+11/3/2020 11:02:17 AM | * Backup/Common/UploadAllFileList.cfg-- -- --7336
+11/3/2020 11:02:17 AM | * Backup/Common/User.cfg-- -- --590
+11/3/2020 11:02:17 AM | * Backup/CONFICHAN2.ope-- -- --3595
+11/3/2020 11:02:17 AM | 
+11/3/2020 11:02:17 AM | 
+--------------------------------Phase 1 Terminé--------------------------------
+11/3/2020 11:02:17 AM | 
+
+11/3/2020 12:03:18 PM | Debut Mise en ligne différentielle (Site):
+11/3/2020 12:03:18 PM | Listing terminé :
+11/3/2020 12:03:18 PM | 
+
+11/3/2020 12:03:18 PM | * Backup-- -- --Folder create
+11/3/2020 12:03:18 PM | * Templates-- -- --Folder create
+11/3/2020 12:03:18 PM | * Backup/.htaccess-- -- --33
+11/3/2020 12:03:18 PM | * .htaccess-- -- --0
+11/3/2020 12:03:18 PM | * index.css-- -- --556
+11/3/2020 12:03:18 PM | * Backup/index.dat-- -- --56850
+11/3/2020 12:03:18 PM | * index.htm-- -- --1987
+11/3/2020 12:03:18 PM | * sitemap.xml-- -- --419
+11/3/2020 12:03:18 PM | * robots.txt-- -- --44
+11/3/2020 12:03:18 PM | * Backup/CONFICHAN2.ope-- -- --3595
+11/3/2020 12:03:18 PM | 
+11/3/2020 12:03:18 PM | 
+--------------------------------Phase 1 Terminé--------------------------------
+11/3/2020 12:03:18 PM | 
+

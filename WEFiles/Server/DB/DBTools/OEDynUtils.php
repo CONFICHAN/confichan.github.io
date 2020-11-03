@@ -21,23 +21,47 @@
 	
 
 $dir_OEDynUtilsphp = dirname(__FILE__);
+if (!function_exists('json_decode')) 
+{ // only if no built-in json
+	require_once dirname(dirname($dir_OEDynUtilsphp))."/class/JSON.php"; // corresponds to "../../class/JSON.php; OEDynUtils.php should be in /DB/DBTools
+}
 
 
 class OEDynUtils {
 
-	public function __construct() {
+	function OEDynUtils() {
 	
 	}
 	
 	public static function decodeJSON($jsonSt, $asArray = true) {
 		if (!$jsonSt) return null;
-		$r = json_decode($jsonSt, $asArray);
+		$r = array();
+		if (function_exists('json_decode')) { // PHP 5 >= 5.2.0, PECL json >= 1.2.0
+			//echo "*Fast JSON decode<br/>";
+			$r = json_decode($jsonSt, $asArray);
+		} else { // php-coded standard json, very slow
+			//echo "*Slow JSON decode<br/>";
+			$decodeJson = ($asArray) ? 
+				new Services_JSON(SERVICES_JSON_LOOSE_TYPE) : 	// associative array
+				new Services_JSON(); 							// object
+			if (!$decodeJson) return $r; // get as an associative array, not as object with fields
+			$r = $decodeJson->Decode($jsonSt);					
+		}
 		return $r;
 	}
 	
 	public static function encodeJSON($o) {
 		if (!$o) return null;
-		$r = json_encode($o);
+		$r = array();
+		if (function_exists('json_encode')) { // PHP 5 >= 5.2.0, PECL json >= 1.2.0
+			//echo "*Fast JSON encode<br/>";
+			$r = json_encode($o);
+		} else { // php-coded standard json, very slow
+			//echo "*Slow JSON encode<br/>";
+			$encodeJson = new Services_JSON(); 							// object
+			if (!$encodeJson) return $r; // get as an associative array, not as object with fields
+			$r = $encodeJson->Encode($o);
+		}
 		return $r;
 	}
 	

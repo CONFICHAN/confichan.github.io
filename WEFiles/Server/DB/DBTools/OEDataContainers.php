@@ -373,6 +373,7 @@ class OEDataContainer {
 	
 	function fromJSON($jsonStr) {
 		$this->Reset();
+		//$decodeJson = new Services_JSON(SERVICES_JSON_LOOSE_TYPE); 	if (!$decodeJson) return; // get as an associative array, not as object with fields
 		$o = OEDynUtils::decodeJson($jsonStr); if (empty($o)) return;
 		if (array_key_exists('Name', o)) $this->Name =& $o['Name'];
 		if (array_key_exists('Values', o)) $this->Values =& $o['Values'];
@@ -380,6 +381,11 @@ class OEDataContainer {
 	}
 	
 	function toJSON() {
+		/*
+		$encodeJson = new Services_JSON();		if (!$encodeJson) return null;
+			$iRows = $this->iRows; $this->iRows = null; // to not pass unnecessary info
+		$jsonStr = $encodeJson->Encode($this); 	
+			$this->iRows = $iRows; // restore info*/
 		$iRows = $this->iRows; $this->iRows = null; // to not pass unnecessary info
 		$jsonStr = OEDynUtils::encodeJson($this);
 		$this->iRows = $iRows; // restore info
@@ -988,7 +994,7 @@ class OEDBValueManager {
 	
 //  var $cacheResults; // stores results for each requested identifier (ex. "ActionName1.TableName1.ColumnName1") and each calculated DBValue (ex. [0]], to not re-read it every time
 
-	public function __construct($mainManager) {
+	function OEDBValueManager($mainManager) {
 		$this->Manager =& $mainManager;
 		if (isset($this->Manager->JSData['DynValues']))
 			$this->DBValues = $this->Manager->JSData['DynValues'];

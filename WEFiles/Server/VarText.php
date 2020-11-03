@@ -15,10 +15,8 @@ $WEInfoPage =
 '"NoUploadRight":"Unable to move imported file.\r\nThe upload folder cannot be created or does not have write permissions.\r\nYou can configure this folder in your upload settings or contact your web host to modify permissions for this folder.",'.
 '"NoAcknowledgment":"Unable to send return receipt: incorrect e-mail address",'.
 '"CaptchaError":"Captcha error!",'.
-'"RecaptchaError":"Recaptcha error - please reload (refresh) the page and try again",'.
 '"CounterError":"Unable to retrieve counter data!",'.
-'"ErrorSize":"Incorrect file size.",'.
-'"ErrorExtension":"Invalid file format. Executable files are not allowed."}';
+'"ErrorSize":"Incorrect file size.","ErrorExtension":"Invalid file format. Executable files are not allowed."}';
 
 
 if (function_exists('detectBrowserLanguage')) {
@@ -38,10 +36,8 @@ $WEInfoPage =
 '"NoUploadRight":"Impossible de d&#233;placer le fichier import&#233;.\r\nLe r&#233;pertoire d\'Upload ne peut pas &#234;tre cr&#233;e ou ne possède pas les droits d\'&#233;criture.\r\nVous pouvez modifier ce r&#233;peroire dans vos param&#232;tres de mise en ligne ou contacter votre h&#233;bergeur pour modifier les droits de ce r&#233;pertoire.",'.
 '"NoAcknowledgment":"Impossible d\'envoyer l\'accusé de réception : e-mail incorrect",'.
 '"CaptchaError":"Captcha incorrect!",'.
-'"RecaptchaError":"Erreur Recaptcha - veuillez actualiser la page et r&#233;essayer",'.
-'"CounterError":"Impossible de récupér les données des compteurs!",'.
-'"ErrorSize":"Taille du fichier incorrecte.",'.
-'"ErrorExtension":"Format du fichier incorrect. Les fichiers executables sont interdits."}';
+'"CounterError":"Impossible de récupér les donné des compteurs!",'.
+'"ErrorSize":"Taille du fichier incorrecte.","ErrorExtension":"Format du fichier incorrect. Les fichiers executables sont interdits."}';
 		} else 
 		
 		if ($_browserLanguage == 'de') { // traduction allemande
