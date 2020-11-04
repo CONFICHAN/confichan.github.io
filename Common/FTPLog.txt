@@ -15,43 +15,43 @@ PWD
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,101,78)
+227 Entering Passive Mode (54,37,121,248,65,2)
 STOR .htaccess
 150 Accepted data connection
 226-File successfully transferred
-226 0.109 seconds (measured here), 2.81 Kbytes per second
+226 0.113 seconds (measured here), 2.71 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,42,96)
+227 Entering Passive Mode (54,37,121,248,42,97)
 STOR index.css
 150 Accepted data connection
 226-File successfully transferred
-226 0.091 seconds (measured here), 5.99 Kbytes per second
+226 0.142 seconds (measured here), 3.82 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,103,171)
+227 Entering Passive Mode (54,37,121,248,39,135)
 STOR index.htm
 150 Accepted data connection
 226-File successfully transferred
-226 0.097 seconds (measured here), 19.58 Kbytes per second
+226 0.168 seconds (measured here), 11.89 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,76,218)
+227 Entering Passive Mode (54,37,121,248,98,190)
 STOR robots.txt
 150 Accepted data connection
 226-File successfully transferred
-226 0.103 seconds (measured here), 429.26 bytes per second
+226 0.084 seconds (measured here), 0.51 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,86,195)
+227 Entering Passive Mode (54,37,121,248,109,13)
 STOR sitemap.xml
 150 Accepted data connection
 226-File successfully transferred
-226 0.112 seconds (measured here), 3.65 Kbytes per second
+226 0.125 seconds (measured here), 3.27 Kbytes per second
 PWD
 257 "/www" is your current location
 MKD Backup
@@ -77,27 +77,27 @@ CWD Backup
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,115,174)
+227 Entering Passive Mode (54,37,121,248,60,194)
 STOR .htaccess
 150 Accepted data connection
 226-File successfully transferred
-226 0.072 seconds (measured here), 456.64 bytes per second
+226 0.109 seconds (measured here), 302.65 bytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,47,243)
+227 Entering Passive Mode (54,37,121,248,40,37)
 STOR CONFICHAN2.ope
 150 Accepted data connection
 226-File successfully transferred
-226 0.085 seconds (measured here), 41.52 Kbytes per second
+226 0.242 seconds (measured here), 14.49 Kbytes per second
 TYPE I
 200 TYPE is now 8-bit binary
 PASV
-227 Entering Passive Mode (54,37,121,248,43,254)
+227 Entering Passive Mode (54,37,121,248,92,112)
 STOR index.dat
 150 Accepted data connection
 226-File successfully transferred
-226 0.264 seconds (measured here), 210.09 Kbytes per second
+226 1.535 seconds (measured here), 36.22 Kbytes per second
 CWD /www
 250 OK. Current directory is /www
 Déconnexion du serveur

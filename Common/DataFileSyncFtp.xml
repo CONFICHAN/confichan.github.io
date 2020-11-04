@@ -60,7 +60,7 @@
     <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2_Backup\Backup\index.dat</LocalPath>
     <Index>4</Index>
     <Path>Backup/index.dat</Path>
-    <Size>56850</Size>
+    <Size>56948</Size>
     <Command>Add</Command>
     <Progress>100</Progress>
     <Retry>1</Retry>
@@ -70,7 +70,7 @@
     <LocalPath>C:\Users\HMC\AppData\Local\Temp\openElementFtp\CONFICHAN2\index.htm</LocalPath>
     <Index>5</Index>
     <Path>index.htm</Path>
-    <Size>1987</Size>
+    <Size>2084</Size>
     <Command>Add</Command>
     <Progress>100</Progress>
     <Retry>1</Retry>
