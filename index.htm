@@ -30,24 +30,6 @@
 	<script type="text/javascript" src="WEFiles/Client/jQuery/1.10.2.js?v=50491126800"></script>
 	<script type="text/javascript" src="WEFiles/Client/jQuery/migrate.js?v=50491126800"></script>
 	<script type="text/javascript" src="WEFiles/Client/Common/oe.min.js?v=50491126800"></script>
-	<!-- <script>
-		var client_id = Date.now()
-		var ws = new WebSocket(`ws://212.47.251.27:8000/ws/${client_id}`);
-		ws.onmessage = function (event) {
-			var messages = document.getElementById('messages')
-			var message = document.createElement('li')
-			if (event.data == "CLEAR") {
-				messages.innerHTML = "";
-			} else {
-				messages.innerHTML = event.data;
-
-			}
-		};
-		function sendMessage(event) {
-			ws.send(event.submitter.value);
-			event.preventDefault()
-		}
-	</script> -->
 </head>
 
 <body class="" data-gl="{&quot;KeywordsHomeNotInherits&quot;:false}">
