@@ -17,7 +17,7 @@
     </div>
     <script>
         var client_id = Date.now()
-        var ws = new WebSocket(`ws://c2d27473-2c87-44be-af07-86bdf5b4de03.pub.instances.scw.cloud/ws/${client_id}`);
+        var ws = new WebSocket(`wss://c2d27473-2c87-44be-af07-86bdf5b4de03.pub.instances.scw.cloud/ws/${client_id}`);
         ws.onmessage = function (event) {
             var messages = document.getElementById('messages')
             if (event.data == "CLEAR") {
