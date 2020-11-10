@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vote</title>
+    <style type="text/css">
+        button {
+            border: none;
+            color: #ffffff;
+            padding: 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 4px;
+            border-radius: 50%;
+        }
+
+        /* #activate-div {
+            display: none
+        } */
+
+        button:focus {
+            background-color: #000
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h2>Your ID: <span id="ws-id"></span></h2> -->
+    <form action="" onsubmit="sendMessage(event)">
+        <button value="VERT" style="background-color:greenyellow;"></button>
+        <button value="ROSE" style="background-color:magenta;"></button>
+    </form>
+    <div id='messages'>
+    </div>
+    <script>
+        var client_id = Date.now()
+        var ws = new WebSocket(`ws://c2d27473-2c87-44be-af07-86bdf5b4de03.pub.instances.scw.cloud/ws/${client_id}`);
+        ws.onmessage = function (event) {
+            var messages = document.getElementById('messages')
+            var message = document.createElement('li')
+            if (event.data == "CLEAR") {
+                messages.innerHTML = "";
+            } else {
+                messages.innerHTML = event.data;
+
+            }
+        };
+        function sendMessage(event) {
+            ws.send(event.submitter.value);
+            event.preventDefault()
+        }
+    </script>
+</body>
+
+</html>

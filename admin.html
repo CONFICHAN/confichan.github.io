@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vote</title>
+    <link type="text/css" href="ws.css"/>
+</head>
+
+<body>
+    <form action="" onsubmit="sendMessage(event)">
+        <button value="CLEAR">CLEAR</button>
+        <button value="RESULTS">RESULTS</button>
+    </form>
+
+
+    <div id='messages'>
+    </div>
+    <script>
+        var client_id = Date.now()
+        var ws = new WebSocket(`ws://c2d27473-2c87-44be-af07-86bdf5b4de03.pub.instances.scw.cloud/ws/${client_id}`);
+        ws.onmessage = function (event) {
+            var messages = document.getElementById('messages')
+            if (event.data == "CLEAR") {
+                messages.innerHTML = "";
+            } else {
+                messages.innerHTML = event.data;
+
+            }
+        };
+        function sendMessage(event) {
+            ws.send(event.submitter.value);
+            event.preventDefault()
+        }
+    </script>
+</body>
+
+</html>
